@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             source: 'app',
             dist: 'dist',
             baseurl: 'c-customdrums',
-            git_repo: 'git@github.com:kottz/kottz.github.io.git',
+            git_repo: 'git@github.com:kottz/c-customdrums.git',
             branch: 'gh-pages'
         },
         watch: {
@@ -256,7 +256,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/img',
-                    src: '**/*.{jpg,jpeg,png,gif}',
+                    src: 'app/img/**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/img'
                 }]
             }

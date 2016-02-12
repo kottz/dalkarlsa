@@ -1,8 +1,8 @@
 {
-    "name": "zeppelin-grunt",
+    "name": "c-customdrums",
     "version": "0.0.1",
-    "description": "Dependencies of Project Zeppelin-grunt",
-    "author": "Oleh Zasadnyy",
+    "description": "Dependencies of C-customdrums",
+    "author": "Edward Källstedt",
     "devDependencies": {
         "bower": "~1.4.1",
         "grunt": "~0.4.5",

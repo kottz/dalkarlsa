@@ -1,33 +1,33 @@
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "C-customdrums"
+email: "edward.kallstedt@gmail.com"
+description: "C-customdrums bygger customtrummor efter dina behov"
 enablePreloader: false
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "butik, c-custumdrums, customdrums, trummor, musik, specialbeställda, customtrummor"
+twitterAccount: "@EdwardKallstedt"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 themeColor: "#03a9f4"
 
 # Organizer Info
-organizerName: "GDG Lviv"
+organizerName: "C-customdrums"
 organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerDescription: "C-customdrums bygger customtrummor efter dina behov"
+organizerEmail: "edward.kallstedt@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://c-customdrums.se/"
 
 # Documents
-c4pUrl: "http://bit.ly/dfua-c4p"
-c4pButton: "Become a speaker"
+c4pUrl: "http://c-customdrums.se/"
+c4pButton: "Kontakta Oss"
 
 # Varibles
-googleAnalyticsTrackingId: "UA-43643469-7"
-webtoolsSiteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
-disqusShortName: "devfestua"
+googleAnalyticsTrackingId: ""
+webtoolsSiteVerification: ""
+disqusShortName: ""
 
 # i18n
 languages:
