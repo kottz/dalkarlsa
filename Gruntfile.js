@@ -256,7 +256,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/img',
-                    src: 'app/img/**/*.{jpg,jpeg,png,gif}',
+                    src: '**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/img'
                 }]
             }

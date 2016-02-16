@@ -1,7 +1,7 @@
 title: "Місце розташування"
-bigImage: "venue_0.jpg"
-smallImage1: "venue_1.jpg"
-smallImage2: "venue_2.jpg"
-smallImage3: "venue_3.jpg"
-venueTitle: "Кінопалац"
-venueFeatures: ["3 величезні екрани", "Аудіосистема Doulby Digital Surround EX", "Розташований в центрі міста"]
+bigImage: "galleri_0.jpg"
+smallImage1: "galleri_1.jpg"
+smallImage2: "galleri_2.jpg"
+smallImage3: "galleri_3.jpg"
+galleriTitle: "Кінопалац"
+galleriFeatures: ["3 величезні екрани", "Аудіосистема Doulby Digital Surround EX", "Розташований в центрі міста"]
