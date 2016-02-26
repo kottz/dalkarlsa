@@ -585,3 +585,70 @@
     }
 
 })(jQuery);
+
+// Kontaktformulär
+
+//  $("#mc-embedded-subscribe").click(function(){
+//    event.preventDefault();
+//    $.ajax({
+  //    url: "//formspree.io/edward.kallstedt@gmail.com",
+//      method: "POST",
+//      data: {message: "hello!"},
+//      dataType: "json"
+//    });
+//    $("#mc_embed_signup").slideUp();
+//  });
+
+  // Startar jQuery
+  $(document).ready(function() {
+      $("#mc-embedded-subscribe").click(function() {
+        event.preventDefault();
+          var proceed = true;
+          //enkel clientside validation
+          //loopar igenom alla fält och byter background till röd om ett fält är tomt
+          $("#mc-embedded-subscribe-form input[required], #mc-embedded-subscribe-form textarea[required]").each(function(){
+              $(this).css('background','');
+              if(!$.trim($(this).val())){ //om detta fält är tomt
+                  $(this).css('border-color','#DE5059'); //byt bakgrund till röd
+                  $("#email-border").css('border-color','#DE5059'); //byt bakgrund till röd (email)
+                  proceed = false; //sätt ingen proceedflagga
+              }
+              //prövar ogilitig email
+              var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+              if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+                  $("#email-border").css('border-color','#DE5059'); //byt bakgrund till röd
+                  proceed = false; //sätt ingen proceedflagga
+              }
+          });
+
+          if(proceed) //ser bra ut, proceed
+          {
+              //hämta fält som skickas
+
+
+              //Ajax post
+
+              $.ajax({
+                url: "//formspree.io/edward.kallstedt@gmail.com",
+                method: "POST",
+                data: $("form").serialize(),
+                dataType: "json"
+              });
+                    $("#mc-embedded-subscribe-form  input[required], #mc-embedded-subscribe-form textarea[required]").val('');
+                    $("#mc-embedded-subscribe-form").slideUp(); //göm fält efter success
+                    $(".subscribe-info").text('Tack för ditt Meddelande!')
+
+                //      $("#mc-embedded-subscribe-form  input[required], #mc-embedded-subscribe-form textarea[required]").val('');
+                  //    $("#feedback_form").slideUp(); //göm fält efter success
+
+
+
+          }
+      });
+
+      //återställ css på .keyup()
+      $("#mc-embedded-subscribe-form  input[required], #mc-embedded-subscribe-form textarea[required]").keyup(function() {
+          $(this).css('border-color','');
+          $("#email-border").css('border-color','');
+      });
+  });

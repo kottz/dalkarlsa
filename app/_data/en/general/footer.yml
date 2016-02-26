@@ -6,10 +6,10 @@ socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
 blocks:
  -
-  title: "Links"
+  title: "Länkar"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://c-customdrums.se", text: "C-customdrums"}
+   - {link: "https://c-customdrums.se", text: "C-customdrums 2"}
  -
   title: "Kontakt"
   links:

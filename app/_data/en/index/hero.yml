@@ -4,5 +4,5 @@ eventDate: "Trummor, Trummor, Trummor"
 typeoutTextValues: '"", "Trummor", "Pukor", "Virvlar", "Kaggar"'
 typeoutFallback: "Trummor"
 buttons:
- - {link: "http://c-customdrums.se/", text: "Galleri"}
- - {permalink: "/#tickets", text: "Läs Mer"}
+ - {link: "http://c-customdrums.se/", text: "Läs Mer"}
+ - {permalink: "/#galleri", text: "Galleri"}

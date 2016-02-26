@@ -1,44 +1,44 @@
-title: "Pricetable"
-info: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+title: "Prisförslag"
+info: "Priser för olika saker"
 offers:
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
+  name: "Virvel"
+  price: "3000"
+  priceCurrency: "SEK"
   ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  #ribbon: "-5%"
+  buyButtonLink: "http://c-customdrums.se/"
+  buyButtonText: "Köp Nu"
+  ticketContentList: ["En virvel är nice", "Köp virvel här", "Som du vill ha den"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
   info: "Before 30 September 2014 23:59 or 150 tickets"
  -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
+  name: "Trumset"
+  price: "30.000"
+  priceCurrency: "SEK"
   ticketsNumber: "100"
-  ribbon: "-20%"
+  #ribbon: "-20%"
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  buyButtonLink: "http://c-customdrums.se/"
+  buyButtonText: "Köp nu"
+  ticketContentList: ["Et trumset är nice", "Köp trumset här", "Som du vill ha den"]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
   info: "450 tickets"
-  disabled: true
-  fallback: "Ticket sales will begin on 1 October 2014 00:00"
+  #disabled: true
+  #fallback: "Ticket sales will begin on 1 October 2014 00:00"
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+  name: "Puka"
+  price: "3000"
+  priceCurrency: "SEK"
   ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
+  buyButtonLink: "http://c-customdrums.se/"
+  buyButtonText: "Köp Nu"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["En puka är nice", "Köp puka här", "Som du vill ha den"]
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
   info: "Before 23 October 2014 23:59 or 50 tickets"
-  soldOut: true
-  soldOutText: "Sold Out"
+  #soldOut: true
+  #soldOutText: "Sold Out"
