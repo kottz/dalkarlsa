@@ -601,7 +601,7 @@
 
   // Startar jQuery
   $(document).ready(function() {
-      $("#mc-embedded-subscribe").click(function() {
+      $("#mc-embedded-subscribe").click(function(event) {
         event.preventDefault();
           var proceed = true;
           //enkel clientside validation
