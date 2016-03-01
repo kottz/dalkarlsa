@@ -66,6 +66,7 @@ module.exports = function(grunt) {
             }
         },
         clean: {
+          options: { force: true },
             server: [
                 '.jekyll',
                 '.tmp'
