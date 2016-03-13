@@ -2,10 +2,10 @@ links:
  - {permalink: "/", text: "Головна"}
  - {permalink: "/blog/", text: "Блог"}
  - {permalink: "/schedule/", text: "Розклад"}
- - {permalink: "/speakers/", text: "Доповідачі"}
+ - {permalink: "/galleri/", text: "Доповідачі"}
  - {permalink: "/team/", text: "Команда"}
  - {permalink: "/logistics/", text: "Логістика"}
- - {permalink: "/hackathon/", text: "Хакатон"}
+ - {permalink: "/trummor/", text: "Хакатон"}
  - 
    subText: "Соціальні мережі"
    links:

@@ -2,10 +2,10 @@ links:
  - {permalink: "/", text: "Hem"}
  - {permalink: "/blog/", text: "Blogg"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Galleri"}
+ - {permalink: "/galleri/", text: "Galleri"}
  - {permalink: "/team/", text: "Team"}
  #- {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/trummor/", text: "Trummor"}
  -
 #   subText: "Social"
 #   links:
