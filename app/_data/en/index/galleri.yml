@@ -1,0 +1,13 @@
+title: "Galleri"
+bigImage1: "antekit_1.jpg"
+smallImage1-1: "antekit_4.jpg"
+smallImage1-2: "antekit_2.jpg"
+smallImage1-3: "antekit_3.jpg"
+bigImage2: "virvel_1.jpg"
+smallImage2-1: "virvel_2.jpg"
+smallImage2-2: "virvel_3.jpg"
+smallImage2-3: "antekit_4.jpg"
+galleriTitle1: "Standardkit"
+galleriTitle2: "Virvel"
+galleriFeatures1: ["22x18 Bastrumma", "10x7, 12x8, 16x14 Pukor", "14x6 Virvel"]
+galleriFeatures2: ["14x6 Virvel", "14x6 Virvel", "14x6 Virvel"]

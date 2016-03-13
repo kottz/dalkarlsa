@@ -1,0 +1,15 @@
+---
+layout: default
+title: titles.galleri
+permalink: /galleri/
+modal: all
+---
+
+{% include general/top-section.html %}
+
+{% if site.data.[site.lang].galleri.galleri.showSessions %}
+    {% include galleri/galleri-list.html %}
+{% else %}
+    {% include galleri/galleri-list-2.html %}
+{% endif %}
+

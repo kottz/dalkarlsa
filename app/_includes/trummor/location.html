@@ -1,0 +1,21 @@
+<!-- Begin trummor Location Section -->
+<section id="trummor-location" class="trummor-location">
+    <div id="canvas-map" class="canvas-map"></div>
+    <div class="content-wrapper">
+        <div class="col-lg-3 col-md-4 col-sm-6 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+            {% if site.data.[site.lang].trummor.location.name %}
+            <h5 class="location-name">{{ site.data.[site.lang].trummor.location.name }}</h5>
+            {% endif %}
+        <p class="location-address">{{ site.data.[site.lang].trummor.location.streetAddress }}, {{ site.data.[site.lang].trummor.location.addressLocality }}</p>
+            <div class="trummor-time">
+                <span>{{ site.data.[site.lang].trummor.location.timeTitle }}</span>
+                {% assign startTime = site.data.[site.lang].trummor.location.startTime | split: "T" %}
+                <time>{{ startTime[1] }}</time> -
+                {% assign endTime = site.data.[site.lang].trummor.location.endTime | split: "T" %}
+                <time>{{ endTime[1] }}</time>
+            </div>
+            <a href="http://maps.google.com/maps?ll={{ site.data.[site.lang].trummor.location.placeCoordinates | replace:' ',''}}&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q={{ site.data.[site.lang].trummor.location.streetAddress | replace:' ','%20' | replace:',','%2C'}}%2C%20{{ site.data.[site.lang].trummor.location.addressLocality | replace:' ','%20' | replace:',','%2C'}}" class="view-on-map" target="_blank">{{ site.data.[site.lang].trummor.location.viewOnMap }}</a>
+        </div>
+    </div>
+</section>
+<!-- End trummor Location Section -->

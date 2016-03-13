@@ -1,0 +1,66 @@
+<!-- Galleri Section -->
+<section id="galleri">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.data.[site.lang].index.galleri.title }}</h3>
+            <div class="row galleri-row">
+                <div class="col-md-8 col-sm-8 galleri-col">
+                    <div class="galleri-elem-wrapper">
+                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage1 }})"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 galleri-col galleri-small-col">
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage1-1 }})"></div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem galleri-small-elem galleri-text animated hiding" data-animation="fadeIn" data-delay="0">
+                            <h5>{{ site.data.[site.lang].index.galleri.galleriTitle1 }}</h5>
+                            {% for feature in site.data.[site.lang].index.galleri.galleriFeatures1 %}
+                            <p>{{ feature }}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage1-2 }})"></div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-xs-6 visible-xs">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage1-3 }})"></div>
+                    </div>
+                </div>
+            </div>
+              <hr>
+            <div class="row galleri-row">
+                <div class="col-md-8 col-sm-8 galleri-col">
+                    <div class="galleri-elem-wrapper">
+                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage2 }})"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 galleri-col galleri-small-col">
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage2-1 }})"></div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem galleri-small-elem galleri-text animated hiding" data-animation="fadeIn" data-delay="0">
+                            <h5>{{ site.data.[site.lang].index.galleri.galleriTitle2 }}</h5>
+                            {% for feature in site.data.[site.lang].index.galleri.galleriFeatures2 %}
+                            <p>{{ feature }}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage2-2 }})"></div>
+                    </div>
+                    <div class="galleri-elem-wrapper col-xs-6 visible-xs">
+                        <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage2-3 }})"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <span class="bordered galleri-bordered">
+      				<a href="{{ site.baseurl }}/galleri/" class="bottom-section-link waves-effect waves-button waves-light">{{ site.data.[site.lang].index.rockstar-galleri.buttonText }}</a>
+      			</span>
+        </div>
+    </div>
+</section>
+<!-- End Galleri Section -->
