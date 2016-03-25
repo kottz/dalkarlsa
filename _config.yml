@@ -14,8 +14,8 @@ show_drafts: true
 markdown: kramdown
 
 # Site settings
-baseurl: "/c-customdrums"
-url: "http://kottz.github.io"
+baseurl: ""
+url: "http://dalkarlsatour.se"
 permalink: '/blog/:title'
 
 # i18n

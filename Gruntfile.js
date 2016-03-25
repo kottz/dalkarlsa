@@ -10,9 +10,9 @@ module.exports = function(grunt) {
         app: {
             source: 'app',
             dist: 'dist',
-            baseurl: 'c-customdrums',
-            git_repo: 'git@github.com:kottz/c-customdrums.git',
-            branch: 'gh-pages'
+            baseurl: '',
+            git_repo: 'git@github-dalkarlsa:dalkarlsa/dalkarlsa.github.io.git',
+            branch: 'master'
         },
         watch: {
             sass: {
