@@ -1,7 +1,7 @@
 image: "hero.jpg"
-title: "C-customdrums <typeout>"
-eventDate: "Trummor, Trummor, Trummor"
-typeoutTextValues: '"", "Trummor", "Pukor", "Virvlar", "Kaggar"'
+title: "Ain't It Fun: <typeout>"
+eventDate: "Dalkarlså Folkhögskola Presenterar"
+typeoutTextValues: '"En", "Rolig", "Turné"'
 typeoutFallback: "Trummor"
 buttons:
  - {link: "http://c-customdrums.se/", text: "Läs Mer"}

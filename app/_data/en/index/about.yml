@@ -1,5 +1,5 @@
-title: "Om C-customdrums"
+title: "Våra Ensembler"
 blocks:
- - {title: "Trummor1", image: "conference.jpg", text: "Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor!" }
- - {title: "Trummor2", image: "workshop.jpg", text: "Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor!" }
- - {title: "Trummor3", image: "trummor.jpg", text: "Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor! Vi bygger trummor!" }
+ - {title: "Versen", image: "conference.jpg", text: "Edward, Evelina, Tobias, David, Julia" }
+ - {title: "Refrängen", image: "workshop.jpg", text: "Mattias, Isac, Max, Nicholas, Nils, Kajsa" }
+ - {title: "Sticket", image: "trummor.jpg", text: "Oskar, Adrian, Johan, Sara, Malin, Elvira" }
