@@ -1,5 +1,6 @@
 image: "subscribe.jpg"
 title: "Kontakta oss"
+yourName: "Ditt Namn"
 yourEmail: "Din E-post"
 subminButton: "Skicka"
 action: "http://formspree.io/edward.kallstedt@gmail.com"
