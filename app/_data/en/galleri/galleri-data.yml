@@ -7,8 +7,8 @@
   bio: "Det här är ett kit som jag byggde blablabla, låter bra hej hå."
   thumbnailUrl: antekit_2.jpg
   rockstar: true
-  social:
-    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+  #social:
+  #  - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
 #-
 #  id: 4
 #  name: "Dmytro"

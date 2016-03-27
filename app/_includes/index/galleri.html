@@ -6,7 +6,9 @@
             <div class="row galleri-row">
                 <div class="col-md-8 col-sm-8 galleri-col">
                     <div class="galleri-elem-wrapper">
-                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage1 }})"></div>
+                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage1 }})">
+                          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ site.data.[site.lang].index.galleri.galleriVideo1 }}" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 galleri-col galleri-small-col">
@@ -33,7 +35,9 @@
             <div class="row galleri-row">
                 <div class="col-md-8 col-sm-8 galleri-col">
                     <div class="galleri-elem-wrapper">
-                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage2 }})"></div>
+                        <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage2 }})">
+                          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ site.data.[site.lang].index.galleri.galleriVideo2 }}" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 galleri-col galleri-small-col">
@@ -56,6 +60,35 @@
                     </div>
                 </div>
             </div>
+            <hr>
+          <div class="row galleri-row">
+              <div class="col-md-8 col-sm-8 galleri-col">
+                  <div class="galleri-elem-wrapper">
+                      <div class="galleri-elem image-section galleri-big-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.bigImage3 }})">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ site.data.[site.lang].index.galleri.galleriVideo3 }}" frameborder="0"></iframe>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-4 galleri-col galleri-small-col">
+                  <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                      <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage3-1 }})"></div>
+                  </div>
+                  <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                      <div class="galleri-elem galleri-small-elem galleri-text animated hiding" data-animation="fadeIn" data-delay="0">
+                          <h5>{{ site.data.[site.lang].index.galleri.galleriTitle3 }}</h5>
+                          {% for feature in site.data.[site.lang].index.galleri.galleriFeatures3 %}
+                          <p>{{ feature }}</p>
+                          {% endfor %}
+                      </div>
+                  </div>
+                  <div class="galleri-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                      <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage3-2 }})"></div>
+                  </div>
+                  <div class="galleri-elem-wrapper col-xs-6 visible-xs">
+                      <div class="galleri-elem image-section galleri-small-elem galleri-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl_root }}/img/galleri/{{ site.data.[site.lang].index.galleri.smallImage3-3 }})"></div>
+                  </div>
+              </div>
+          </div>
             <div class="clearfix"></div>
             <span class="bordered galleri-bordered">
       				<a href="{{ site.baseurl }}/galleri/" class="bottom-section-link waves-effect waves-button waves-light">{{ site.data.[site.lang].index.rockstar-galleri.buttonText }}</a>

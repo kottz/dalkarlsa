@@ -22,7 +22,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://c-customdrums.se/"
 
 # Documents
-c4pUrl: "http://c-customdrums.se/"
+c4pUrl: "/#subscribe"
 c4pButton: "Kontakta Oss"
 
 # Varibles
@@ -33,4 +33,4 @@ disqusShortName: ""
 # i18n
 languages:
   en: English
-  uk: Українська
+#  uk: Українська

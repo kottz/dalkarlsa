@@ -1,20 +1,20 @@
-languagesTitle: "Språk"
+#languagesTitle: "Kontakt"
 socialLinks:
- - {link: "https://plus.google.com/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+# - {link: "https://plus.google.com/102444623953913144164", icon: "google-plus"}
+ - {link: "https://facebook.com/Dalkarlsa", icon: "facebook"}
+ - {link: "https://twitter.com/Dalkarlsa", icon: "twitter"}
+# - {permalink: "/feed.xml", icon: "rss"}
 blocks:
  -
   title: "Länkar"
   links:
-   - {link: "http://c-customdrums.se", text: "C-customdrums"}
-   - {link: "https://c-customdrums.se", text: "C-customdrums 2"}
+   - {link: "http://dalkarlsa.nu", text: "Dalkarlså Folkhögskola"}
+  # - {link: "https://c-customdrums.se", text: "C-customdrums 2"}
  -
   title: "Kontakt"
   links:
-   - {link: "mailto:edward@c-customdrums.se", text: "edward@c-customdrums.se"}
+   - {link: "mailto:kontakt@dalkarlsatour.se", text: "kontakt@dalkarlsatour.se"}
  -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+  #title: "FAQ"
+#  links:
+#   - {permalink: "/cod/", text: "Code of Conduct"}

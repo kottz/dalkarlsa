@@ -1,17 +1,17 @@
 links:
  - {permalink: "/", text: "Hem"}
  - {permalink: "/blog/", text: "Blogg"}
- - {permalink: "/schedule/", text: "Schedule"}
+ #- {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/galleri/", text: "Galleri"}
- - {permalink: "/team/", text: "Team"}
+ #- {permalink: "/team/", text: "Team"}
  #- {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/trummor/", text: "Trummor"}
+ #- {permalink: "/trummor/", text: "Trummor"}
  -
-#   subText: "Social"
-#   links:
-#    - {link: "https://plus.google.com/102444623953913144164", text: "+GDGLviv"}
-#    - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", text: "@GDGLviv"}
-#    - {link: "https://facebook.com/GDGLviv", text: "GDGLviv"}
+   subText: "Länkar"
+   links:
+    - {link: "http://dalkarlsa.nu", text: "Dalkarlså"}
+    - {link: "https://facebook.com/Dalkarlsa", text: "Facebook"}
+    - {link: "https://twitter.com/Dalkarlsa", text: "Twitter"}
 bottomLinks:
  - {link: "http://c-customdrums.se/", text: "Kontakta oss"}
 rightButtons:
