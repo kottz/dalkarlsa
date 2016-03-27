@@ -1,23 +1,23 @@
 # Site Settings
-title: "C-customdrums"
-email: "edward.kallstedt@gmail.com"
-description: "C-customdrums bygger customtrummor efter dina behov"
-enablePreloader: false
+title: "Ain't It Fun - Dalkarlså Folkhögskola"
+email: "kontakt@dalkarlsatour.se"
+description: "Ain't It Fun - En Turné Av Dalkarlså Folkhögskola"
+enablePreloader: true
 
 # Head
-author: C-customdrums
-metaKeywords: "butik, c-custumdrums, customdrums, trummor, musik, specialbeställda, customtrummor"
-twitterAccount: "@EdwardKallstedt"
+author: Dalkarlså Folkhögskola
+metaKeywords: "Dalkarlså, Folkhögskola, musik, konsert, musik, specialbeställda, customtrummor"
+twitterAccount: "@dalkarlsa"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 themeColor: "#03a9f4"
 
 # Organizer Info
-organizerName: "C-customdrums"
-organizerAlternateName: "Crister Eriksson"
-organizerDescription: "C-customdrums bygger customtrummor efter dina behov"
-organizerEmail: "edward.kallstedt@gmail.com"
+organizerName: "Dalkarlså Folkhögskola"
+organizerAlternateName: "Dalkarlså"
+organizerDescription: "Ain't It Fun - En Turné av Dalkarlså Folkhögskola"
+organizerEmail: "kontakt@dalkarlsatour.se"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://dalkarlsatour.se/"
 

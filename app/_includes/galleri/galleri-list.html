@@ -30,15 +30,15 @@
                         <div class="lily-bottom">
                             <ul class="slider">
                                 {% assign sessionsNumber = 0 %}
-                                {% if site.data.[site.lang].galleri.galleri.showSessions %} 
-                                    {% for session in site.data.[site.lang].schedule.sessions-data %} 
-                                        {% for session_speaker in session.galleri %} 
+                                {% if site.data.[site.lang].galleri.galleri.showSessions %}
+                                    {% for session in site.data.[site.lang].schedule.sessions-data %}
+                                        {% for session_speaker in session.galleri %}
                                             {% if session_speaker == speaker.id %}
                                             {% assign sessionsNumber = sessionsNumber | plus: 1 %}
                                                 <li class="title slider-item animated fadeInRight hidden">{{ session.title }}</li>
-                                            {% endif %} 
-                                        {% endfor %} 
-                                    {% endfor %} 
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
                                 {% else %}
                                     <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
                                     <p class="position">{{ speaker.company }}</p>
@@ -49,8 +49,8 @@
                     </div>
                 </div>
                 {% endfor %}
-            </div> 
-            <a href="{{ site.data.[site.lang].general.basic.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">{{ site.data.[site.lang].general.basic.c4pButton }}</a>     
+            </div>
+            <a href="{{ site.data.[site.lang].general.basic.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.data.[site.lang].general.basic.c4pButton }}</a>     
         </div>
     </div>
 </section>

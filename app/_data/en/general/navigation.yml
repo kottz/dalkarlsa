@@ -13,6 +13,6 @@ links:
     - {link: "https://facebook.com/Dalkarlsa", text: "Facebook"}
     - {link: "https://twitter.com/Dalkarlsa", text: "Twitter"}
 bottomLinks:
- - {link: "http://c-customdrums.se/", text: "Kontakta oss"}
+ - {permalink: "/#subscribe", text: "Kontakta oss"}
 rightButtons:
- - {link: "http://c-customdrums.se/", text: "Kontakta oss"}
+ - {permalink: "/#subscribe", text: "Kontakta oss"}

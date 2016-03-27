@@ -15,7 +15,7 @@ markdown: kramdown
 
 # Site settings
 baseurl: ""
-url: "http://dalkarlsatour.se"
+url: "http://dalkarlsatour.se/"
 permalink: '/blog/:title'
 
 # i18n
