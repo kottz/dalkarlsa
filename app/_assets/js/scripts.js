@@ -610,8 +610,8 @@
               $(this).css('background','');
               if(!$.trim($(this).val())){ //om detta fält är tomt
                   $(this).css('border-color','#DE5059'); //byt bakgrund till röd
-                  $("#email-border").css('border-color','#DE5059'); //byt bakgrund till röd (email)
-                  $("#name-border").css('border-color','#DE5059'); //byt bakgrund till röd (email)
+                  var bor = '#' + $(this).prop('id') + '-border' // fulfix för att loopa på div:en som styr border
+                  $( bor ).css('border-color','#DE5059'); //byt bakgrund till röd
                   proceed = false; //sätt ingen proceedflagga
               }
               //prövar ogilitig email
@@ -650,7 +650,8 @@
       //återställ css på .keyup()
       $("#mc-embedded-subscribe-form  input[required], #mc-embedded-subscribe-form textarea[required]").keyup(function() {
           $(this).css('border-color','');
-          $("#email-border").css('border-color','');
-          $("#name-border").css('border-color','');
+          var bor = '#' + $(this).prop('id') + '-border' // fulfix för att loopa på div:en som styr border
+          $(bor).css('border-color','');
+      //    $("#name-border").css('border-color','');
       });
   });
