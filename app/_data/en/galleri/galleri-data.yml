@@ -1,23 +1,69 @@
 -
   id: 3
-  name: "Nice"
-  surname: "Trumset"
-  company: "22x18, 10x7, 16x14"
-  title: "2016"
-  bio: "Det här är ett kit som jag byggde blablabla, låter bra hej hå."
-  thumbnailUrl: antekit_2.jpg
+  name: "Kafé Station"
+  surname: "Alla"
+  company: "19:e Mars, 2016"
+  title: "Kafé Station - Alla"
+  bio: ''
   rockstar: true
   #social:
   #  - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
-#-
-#  id: 4
-#  name: "Dmytro"
-#  surname: "Danylyk"
-#  company: "Lemberg Solutions Limited"
-#  title: "Android Developer"
-#  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
-#  thumbnailUrl: DmytroDanylyk.jpg
-#  rockstar: true
+-
+  id: 4
+  name: "Midgårdsskolan"
+  surname: "Refrängen"
+  company: "2:a Mars, 2016"
+  title: "Midgårdsskolan - Refrängen"
+  bio: ''
+  rockstar: true
+-
+  id: 5
+  name: "Strömbäck"
+  surname: "Refrängen"
+  company: "14:e Mars, 2016"
+  title: "Strömbäck - Refrängen"
+  bio: ''
+  rockstar: true
+-
+  id: 6
+  name: "Dalkarlså"
+  surname: "Refrängen"
+  company: "1:a Mars, 2016"
+  title: "Dalkarlså - Refrängen"
+  bio: ''
+  rockstar: true
+-
+  id: 7
+  name: "Mellansel"
+  surname: "Sticket"
+  company: "16:e Mars, 2016"
+  title: "Mellansels Folkhögskola - Sticket"
+  bio: ''
+  rockstar: true
+-
+  id: 8
+  name: "Nolaskolan"
+  surname: "Sticket"
+  company: "17:e Mars, 2016"
+  title: "Nolaskolan - Sticket"
+  bio: ''
+  rockstar: true
+-
+  id: 9
+  name: "Medlefors"
+  surname: "Versen"
+  company: "4:e Mars, 2016"
+  title: "Medlefors Folkhögskola - Versen"
+  bio: ''
+  rockstar: true
+-
+  id: 10
+  name: "Lycksele"
+  surname: "Versen"
+  company: "3:e Mars, 2016"
+  title: "Lycksele Musikskola - Versen"
+  bio: ''
+  rockstar: true
 #  social:
 #    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
 #    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}

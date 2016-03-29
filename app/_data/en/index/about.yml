@@ -1,5 +1,5 @@
 title: "Våra Ensembler"
 blocks:
- - {title: "Versen", image: "conference.jpg", text: "Edward, Evelina, Tobias, David, Julia" }
- - {title: "Refrängen", image: "workshop.jpg", text: "Mattias, Isac, Max, Nicholas, Nils, Kajsa" }
- - {title: "Sticket", image: "trummor.jpg", text: "Oskar, Adrian, Johan, Sara, Malin, Elvira" }
+ - {title: "Versen", image: "versen.jpg", text: "Edward, Evelina, Tobias, David, Julia" }
+ - {title: "Refrängen", image: "refrangen.jpg", text: "Mattias, Isac, Max, Nicholas, Nils, Kajsa" }
+ - {title: "Sticket", image: "sticket.jpg", text: "Oskar, Adrian, Johan, Sara, Malin, Elvira" }

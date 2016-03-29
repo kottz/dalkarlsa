@@ -2,7 +2,7 @@
 title: "Ain't It Fun - Dalkarlså Folkhögskola"
 email: "kontakt@dalkarlsatour.se"
 description: "Ain't It Fun - En Turné Av Dalkarlså Folkhögskola"
-enablePreloader: true
+enablePreloader: false
 
 # Head
 author: Dalkarlså Folkhögskola
@@ -26,8 +26,8 @@ c4pUrl: "/#subscribe"
 c4pButton: "Kontakta Oss"
 
 # Varibles
-googleAnalyticsTrackingId: ""
-webtoolsSiteVerification: ""
+googleAnalyticsTrackingId: "UA-29772059-3"
+webtoolsSiteVerification: "Rv2HMlLiF4ueOmbJ-99WNojKdJehSeco6gjMxJ8U70I"
 disqusShortName: ""
 
 # i18n
