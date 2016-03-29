@@ -1,5 +1,5 @@
-C-customdrums-utveckling
+Dalkarlså Tour
 =============
 
-### About
+### Om
 Ska försöka styra ihop något här...
