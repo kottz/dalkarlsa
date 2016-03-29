@@ -1,25 +1,21 @@
 ---
 layout: post
-title:  "Så här kan ett blogginlägg se ut"
+title:  "Ain't It Fun"
 date:   2016-03-26 16:04:00
 isStaticPost: false
 ---
-Så här kan ett blogginlägg se ut!
 
 #### Dalkarlså Folkhögskola Presenterar
 
-* En turné
-* Musik
-* Roliga saker
+Ain't It Fun - En Turné av Dalkarlså Folkhögskola
 
-Test 123.<br/>
 
 #### Ain't It Fun
-Ain't It Fun Ain't It Fun Ain't It Fun Ain't It Fun Ain't It Fun
+Dalkarlså Folkhögskolas årliga vårturné.
+
+#### Dalkarlså Folkhögskolas Tre Ensembler:
 
 ##### Versen
-
-__Deltagare__
 
 * Edward
 * Evelina
