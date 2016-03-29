@@ -5,3 +5,5 @@ Dalkarlså Tour
 Ska försöka styra ihop något här...
 
 #### [Dalkarlså Tour](https://dalkarlsatour.se)
+
+För Vårturnén
