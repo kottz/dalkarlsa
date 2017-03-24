@@ -1,7 +1,7 @@
 # Site Settings
-title: "Ain't It Fun - Dalkarlså Folkhögskola"
+title: "Backyard Party - Dalkarlså Folkhögskola"
 email: "kontakt@dalkarlsatour.se"
-description: "Ain't It Fun - En Turné Av Dalkarlså Folkhögskola"
+description: "Backyard Party - En Turné Av Dalkarlså Folkhögskola"
 enablePreloader: true
 
 # Head
@@ -16,7 +16,7 @@ themeColor: "#03a9f4"
 # Organizer Info
 organizerName: "Dalkarlså Folkhögskola"
 organizerAlternateName: "Dalkarlså"
-organizerDescription: "Ain't It Fun - En Turné av Dalkarlså Folkhögskola"
+organizerDescription: "Backyard Party - En Turné av Dalkarlså Folkhögskola"
 organizerEmail: "kontakt@dalkarlsatour.se"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://dalkarlsatour.se/"

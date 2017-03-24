@@ -1,6 +1,13 @@
 # Plugins
 gems:
 - jekyll-sitemap
+- jekyll-gist
+- jekyll-paginate
+- jekyll-coffeescript
+- pygments.rb
+- redcarpet
+- classifier-reborn
+- jekyll-multiple-languages-plugin
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',

@@ -1,8 +1,8 @@
 image: "hero.jpg"
 title: "<typeout>"
 eventDate: "Dalkarlså Folkhögskola Presenterar"
-typeoutTextValues: '"Ain&#39;t It Fun"'
-typeoutFallback: "Ain&#39;t It Fun"
+typeoutTextValues: '"Backyard Party"'
+typeoutFallback: "Backyard Party"
 buttons:
  #- {link: "http://c-customdrums.se/", text: "Läs Mer"}
  - {permalink: "/#galleri", text: "Se Mer"}

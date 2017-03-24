@@ -5,7 +5,7 @@
     {% include general/navigation.html %}
 	<div class="content-wrapper">
 	    <div class="jumbotron text-left">
-	        {% capture title %}{% t page.title %}{% endcapture %}
+	        {% capture title %}{{ t page.title }}{% endcapture %}
 	        <h1>{% if title != '' %}{{ title }}{% else %}{{ page.title }}{% endif %}</h1>
 	    </div>
     </div>

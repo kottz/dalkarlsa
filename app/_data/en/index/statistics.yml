@@ -1,6 +1,6 @@
 image: "statistic.jpg"
 blocks:
- - {count: "18", specialCharacter: "", info: "Personer", detail: ""}
+ - {count: "17", specialCharacter: "", info: "Personer", detail: ""}
  - {count: "3", specialCharacter: "", info: "Ensembler", detail: ""}
  - {count: "2", specialCharacter: "", info: "Veckor", detail: ""}
  - {count: "40", specialCharacter: "+", info: "Minuter", detail: ""}
