@@ -630,7 +630,7 @@
               //Ajax post
 
               $.ajax({
-                url: "//formspree.io/kontakt@dalkarlsatour.se",
+                url: "https://formspree.io/bokamusiker@dalkarlsa.se",
                 method: "POST",
                 data: $("form").serialize(),
                 dataType: "json"
