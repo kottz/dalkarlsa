@@ -1,6 +1,6 @@
 links:
  - {permalink: "/", text: "Hem"}
- - {permalink: "/blog/", text: "Blogg"}
+ #- {permalink: "/blog/", text: "Blogg"}
  #- {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/galleri/", text: "Galleri"}
  #- {permalink: "/team/", text: "Team"}
